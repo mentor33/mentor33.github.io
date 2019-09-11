@@ -3,7 +3,9 @@
  * To find the original style.css that ships with Airspace, read airspace.css
  *
  */
-
+body .h1{
+  font-family: 'din_next'
+}
  .italic {
    font-style: italic;
  }
@@ -32,3 +34,7 @@
 .post-area a:hover {
   color: #0D0017;
 }
+@font-face {
+  font-family: "din_next";
+  src: url("fonts/din_next_arabic_black_0.otf") format("opentype");
+  }
