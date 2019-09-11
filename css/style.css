@@ -3,8 +3,33 @@
  * To find the original style.css that ships with Airspace, read airspace.css
  *
  */
-body .h1{
-  font-family: 'din_next'
+ @font-face {
+  font-family: din_next;
+  src: url("../fonts/din_next_arabic_black_0.otf");
+  }
+  @-webkit-keyframes AnimationName {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+.body{
+  font-family: din_next;
+  background: linear-gradient(197deg, #673ab7, #3f51b5, #f321d5);
+  background-size: 600% 600%;
+  
+  -webkit-animation: AnimationName 11s ease infinite;
+  -moz-animation: AnimationName 11s ease infinite;
+  animation: AnimationName 11s ease infinite;
 }
  .italic {
    font-style: italic;
@@ -34,7 +59,10 @@ body .h1{
 .post-area a:hover {
   color: #0D0017;
 }
-@font-face {
-  font-family: "din_next";
-  src: url("fonts/din_next_arabic_black_0.otf") format("opentype");
-  }
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+}

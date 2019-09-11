@@ -3,51 +3,59 @@
   <head>
     <title>()->{mobark;}</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../css/style.css" type='text/css'>
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </head>
-  <body style="background-color: cornflowerblue">
-      <!-- Uses a transparent header that draws on top of the layout's background -->
-<style>
-    .demo-layout-transparent {
-      background: url('../assets/demos/transparent.jpg') center / cover;
-    }
-    .demo-layout-transparent .mdl-layout__header,
-    .demo-layout-transparent .mdl-layout__drawer-button {
-      /* This background is dark, so we set text to white. Use 87% black instead if
-         your background is light. */
-      color: white;
-    }
-    </style>
-    
-    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-      <header class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row">
-          <!-- Title -->
-          <span class="mdl-layout-title">القائمة</span>
-          <!-- Add spacer, to align navigation to the right -->
-          <div class="mdl-layout-spacer"></div>
-          <!-- Navigation -->
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">الملف الشخصي</a>
-            <a class="mdl-navigation__link" href="">تطبيقاتي</a>
-            <a class="mdl-navigation__link" href="">التواصل معي</a>
-            <a class="mdl-navigation__link" href="">المزيد</a>
-          </nav>
+  <body class="body">
+
+    <!---------------Menu---------->
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+          <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+            <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="">Link</a>
+              <a class="mdl-navigation__link" href="">Link</a>
+              <a class="mdl-navigation__link" href="">Link</a>
+              <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
+          </div>
+          <main class="mdl-layout__content">
+            <div class="page-content">
+              
+                <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand" style="background:
+                    url('../img/android_logo.svg') bottom right 15% no-repeat #ffffff;">
+                      <h1 class="mdl-card__title-text" style="font-family: din_next; font-size: 80%">Android Dev</h1>
+                    </div>
+                    <div class="mdl-card__supporting-text" >
+                      Android Development was and still my favorite since 2010 and i'm proud about i't now im in my to professionalism in UI/UX  
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        View More ❤
+                      </a>
+                    </div>
+                  </div>
+
+
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                      <div class="mdl-card__title mdl-card--expand" style="background:
+                      url('../img/xcode.svg') bottom right 15% no-repeat #ffffff;">
+                        <h1 class="mdl-card__title-text" style="font-family: din_next; font-size: 80%">iOS Dev</h1>
+                      </div>
+                      <div class="mdl-card__supporting-text" >
+                        iOS Development was and still my favorite since 2010 and i'm proud about i't now im in my to professionalism in UI/UX  
+                      </div>
+                      <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                          View More ❤
+                        </a>
+                      </div>
+                    </div>
+            </div>
+          </main>
         </div>
-      </header>
-      <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">القائمة</span>
-        <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">الملف الشخصي</a>
-            <a class="mdl-navigation__link" href="">تطبيقاتي</a>
-            <a class="mdl-navigation__link" href="">التواصل معي</a>
-            <a class="mdl-navigation__link" href="">المزيد</a>
-          </nav>
-      </div>
-      <main class="mdl-layout__content">
-      </main>
-    </div>
-    <h1>aaaaaa</h1>
+        <!---------------MenuEnd-->
     </body>
 </html>
