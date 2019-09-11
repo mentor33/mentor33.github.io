@@ -24,7 +24,7 @@
 }
 .body{
   font-family: din_next;
-  background: linear-gradient(197deg, #673ab7, #000000, #000000);
+  background: linear-gradient(197deg, #673ab7, #ffffff, #ffff55);
   background-size: 600% 600%;
   
   -webkit-animation: AnimationName 11s ease infinite;
